@@ -1,0 +1,98 @@
+
+package org.usfirst.frc.team1732.robot;
+
+import edu.wpi.first.wpilibj.DigitalInput;
+import edu.wpi.first.wpilibj.IterativeRobot;
+import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.Solenoid;
+import edu.wpi.first.wpilibj.Talon;
+import edu.wpi.first.wpilibj.buttons.Button;
+import edu.wpi.first.wpilibj.buttons.JoystickButton;
+
+/**
+ * The VM is configured to automatically run this class, and to call the
+ * functions corresponding to each mode, as described in the IterativeRobot
+ * documentation. If you change the name of this class or the package after
+ * creating this project, you must also update the manifest file in the resource
+ * directory.
+ */
+public class Robot extends IterativeRobot {
+	
+	/*
+	 * Create Joysticks
+	 */
+	Joystick leftJoystick = new Joystick(0);
+	Joystick rightJoystick = new Joystick(1);
+	
+	/*
+	 * Create Joystick Buttons
+	 */
+	Button leftGate = new JoystickButton(leftJoystick, 0);
+	Button rightGate = new JoystickButton(rightJoystick, 0);
+	Button leftArm = new JoystickButton(leftJoystick, 1);
+	Button rightArm = new JoystickButton(rightJoystick, 1);
+	Button leftForward = new JoystickButton(leftJoystick, 2);
+	Button rightForward = new JoystickButton(rightJoystick, 2);
+	Button leftBackward = new JoystickButton(leftJoystick, 3);
+	Button rightBackward = new JoystickButton(rightJoystick, 3);
+	Button leftIntake = new JoystickButton(leftJoystick, 4);
+	Button rightIntake = new JoystickButton(rightJoystick, 4);
+	Button leftShoot = new JoystickButton(leftJoystick, 5);
+	Button rightShoot = new JoystickButton(rightJoystick, 5);
+
+	/*
+	 * Creates Sensors
+	 */
+	DigitalInput proximitySensor = new DigitalInput(0);
+	
+	/*
+	 * Creates actions of each button
+	 */
+	// TODO: bind buttons to command groups and commands
+	
+	/*
+	 * Creates Motors
+	 */
+	Talon leftMotor = new Talon(0);
+	Talon rightMotor = new Talon(1);
+	Talon armMotor = new Talon(2);
+	Talon catapultMotor = new Talon(3);
+	
+	/* 
+	 * Creates Solenoids
+	 */
+	Solenoid shifterSolenoid = new Solenoid(0);
+	Solenoid pickupArmSolenoid = new Solenoid(1);
+	Solenoid backPassSolenoid = new Solenoid(2);
+	Solenoid gatesSolenoid = new Solenoid(3);
+	
+    /**
+     * This function is run when the robot is first started up and should be
+     * used for any initialization code.
+     */
+    public void robotInit() {
+
+    }
+
+    /**
+     * This function is called periodically during autonomous
+     */
+    public void autonomousPeriodic() {
+
+    }
+
+    /**
+     * This function is called periodically during operator control
+     */
+    public void teleopPeriodic() {
+        
+    }
+    
+    /**
+     * This function is called periodically during test mode
+     */
+    public void testPeriodic() {
+    
+    }
+    
+}
