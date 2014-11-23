@@ -139,9 +139,9 @@ public class Robot extends IterativeRobot {
      * This function is called periodically during test mode
      */
     public void testPeriodic() {
-    	if (tpFirstRun) {
+    	if (dpFirstRun) {
             System.out.println("In test Periodic mode!");
-            tpFirstRun = false;
+            dpFirstRun = false;
         }
         Timer.delay(0.001);
     }
