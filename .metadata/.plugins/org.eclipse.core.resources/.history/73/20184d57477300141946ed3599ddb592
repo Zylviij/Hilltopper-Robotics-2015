@@ -6,7 +6,6 @@ import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.Solenoid;
 import edu.wpi.first.wpilibj.Talon;
-import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 
@@ -75,13 +74,7 @@ public class Robot extends IterativeRobot {
      * disabled mode.
      */
     public void disabledInit() {
-    	/*
-    	 * As shown below, each component should be put in a safe
-    	 * mode and should be freed.
-    	 * 
-    	 * shifterSolenoid.set(false);
-    	 * shifterSolenoid.free();    	
-    	*/
+    	
     }
     
     /**
@@ -108,16 +101,11 @@ public class Robot extends IterativeRobot {
     	
     }
     
-    private boolean dpFirstRun = true;
     /**
      * This function is called periodically during disabled mode.
      */
     public void disabledPeriodic() {
-    	if (dpFirstRun) {
-            System.out.println("In disabled Periodic mode!");
-            dpFirstRun = false;
-        }
-        Timer.delay(0.001);
+    	
     }
     
     /**
@@ -134,16 +122,11 @@ public class Robot extends IterativeRobot {
         
     }
     
-    private boolean tpFirstRun = true;
     /**
      * This function is called periodically during test mode
      */
     public void testPeriodic() {
-    	if (dpFirstRun) {
-            System.out.println("In test Periodic mode!");
-            dpFirstRun = false;
-        }
-        Timer.delay(0.001);
+    
     }
     
 }
