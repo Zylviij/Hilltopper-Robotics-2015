@@ -1,0 +1,3435 @@
+!SESSION 2014-11-24 21:05:20.052 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2014-11-24 16:25:49.060
+!MESSAGE Connection to http://mirror.cc.vt.edu/pub/eclipse/releases/luna/201409261001/plugins/org.eclipse.rse.core_3.3.100.201406091451.jar.pack.gz failed on Connection to http://mirror.cc.vt.edu refused. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connection to http://mirror.cc.vt.edu refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:643)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:84)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 11 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2014-11-24 16:25:50.492
+!MESSAGE Connection to http://mirror.cc.vt.edu/pub/eclipse/releases/luna/201409261001/plugins/org.eclipse.rse.subsystems.shells.core_3.1.300.201403271554.jar.pack.gz failed on Connection to http://mirror.cc.vt.edu refused. Retry attempt 0 started
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connection to http://mirror.cc.vt.edu refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:643)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:84)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 11 more
+!SESSION 2014-11-24 16:27:13.563 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2014-11-24 16:27:25.431
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui.intro 4 0 2014-11-24 16:27:28.602
+!MESSAGE C:\Program Files\eclipse\WPILib Intro\sample.xml (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Program Files\eclipse\WPILib Intro\sample.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.ui.internal.intro.impl.model.loader.IntroContentParser.parse(IntroContentParser.java:94)
+	at org.eclipse.ui.internal.intro.impl.model.loader.IntroContentParser.<init>(IntroContentParser.java:56)
+	at org.eclipse.ui.internal.intro.impl.model.IntroModelRoot.loadDOM(IntroModelRoot.java:885)
+	at org.eclipse.ui.internal.intro.impl.model.IntroModelRoot.processConfigExtension(IntroModelRoot.java:411)
+	at org.eclipse.ui.internal.intro.impl.model.IntroModelRoot.resolveConfigExtensions(IntroModelRoot.java:381)
+	at org.eclipse.ui.internal.intro.impl.model.IntroModelRoot.resolveChildren(IntroModelRoot.java:242)
+	at org.eclipse.ui.internal.intro.impl.model.AbstractIntroContainer.getChildren(AbstractIntroContainer.java:86)
+	at org.eclipse.ui.internal.intro.impl.model.IntroModelRoot.loadModel(IntroModelRoot.java:164)
+	at org.eclipse.ui.internal.intro.impl.model.loader.BaseExtensionPointManager.loadModel(BaseExtensionPointManager.java:95)
+	at org.eclipse.ui.internal.intro.impl.model.loader.ExtensionPointManager.loadCurrentModel(ExtensionPointManager.java:61)
+	at org.eclipse.ui.internal.intro.impl.model.loader.ExtensionPointManager.getCurrentModel(ExtensionPointManager.java:73)
+	at org.eclipse.ui.intro.config.CustomizableIntroPart.init(CustomizableIntroPart.java:154)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.init(ViewIntroAdapterPart.java:216)
+	at org.eclipse.ui.internal.ViewReference.initialize(ViewReference.java:140)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:305)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:337)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:258)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$6.run(PartRenderingEngine.java:547)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:531)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:99)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:105)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:678)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.handleEvent(PartRenderingEngine.java:141)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:303)
+	at org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon.subscribeRenderingChanged(CleanupAddon.java:265)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:56)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:53)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:303)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:485)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:454)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:694)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:674)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:615)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:603)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1126)
+	at org.eclipse.ui.internal.WorkbenchPage.showPart(WorkbenchPage.java:1292)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1283)
+	at org.eclipse.ui.internal.WorkbenchPage$14.run(WorkbenchPage.java:4208)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4204)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4184)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.createIntro(WorkbenchIntroManager.java:182)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.showIntro(WorkbenchIntroManager.java:129)
+	at org.eclipse.ui.application.WorkbenchWindowAdvisor.openIntro(WorkbenchWindowAdvisor.java:190)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.openIntro(IDEWorkbenchWindowAdvisor.java:564)
+	at org.eclipse.ui.internal.WorkbenchWindow.setup(WorkbenchWindow.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:85)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.inject(ContextInjectionFactory.java:73)
+	at org.eclipse.ui.internal.Workbench.createWorkbenchWindow(Workbench.java:1480)
+	at org.eclipse.ui.internal.Workbench.openWorkbenchWindow(Workbench.java:2669)
+	at org.eclipse.ui.internal.Workbench.getWorkbenchPage(Workbench.java:2044)
+	at org.eclipse.ui.internal.Workbench.setReference(Workbench.java:2093)
+	at org.eclipse.ui.internal.Workbench.access$27(Workbench.java:2060)
+	at org.eclipse.ui.internal.Workbench$35.handleEvent(Workbench.java:1982)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.basic.impl.PartImpl.setContext(PartImpl.java:431)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:637)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$6.run(PartRenderingEngine.java:547)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:531)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1250)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:100)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:678)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:185)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:185)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:100)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:77)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:678)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:185)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:664)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1078)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 4 0 2014-11-24 16:27:30.156
+!MESSAGE Error loading project properties.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Zylviij\wpilib\wpilib.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at edu.wpi.first.wpilib.plugins.core.WPILibCore.getProjectProperties(WPILibCore.java:98)
+	at edu.wpi.first.wpilib.plugins.core.preferences.PreferenceInitializer.initializeDefaultPreferences(PreferenceInitializer.java:21)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper$1.run(PreferenceServiceRegistryHelper.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper.runInitializer(PreferenceServiceRegistryHelper.java:303)
+	at org.eclipse.core.internal.preferences.PreferenceServiceRegistryHelper.applyRuntimeDefaults(PreferenceServiceRegistryHelper.java:131)
+	at org.eclipse.core.internal.preferences.PreferencesService.applyRuntimeDefaults(PreferencesService.java:368)
+	at org.eclipse.core.internal.preferences.DefaultPreferences.applyRuntimeDefaults(DefaultPreferences.java:221)
+	at org.eclipse.core.internal.preferences.DefaultPreferences.load(DefaultPreferences.java:274)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:409)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:670)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:812)
+	at org.eclipse.core.internal.preferences.AbstractScope.getNode(AbstractScope.java:38)
+	at org.eclipse.core.runtime.preferences.DefaultScope.getNode(DefaultScope.java:76)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.getDefaultPreferences(ScopedPreferenceStore.java:253)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.getPreferenceNodes(ScopedPreferenceStore.java:289)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.internalGet(ScopedPreferenceStore.java:490)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.getString(ScopedPreferenceStore.java:554)
+	at edu.wpi.first.wpilib.plugins.core.installer.ToolsInstaller.<init>(ToolsInstaller.java:12)
+	at edu.wpi.first.wpilib.plugins.core.WPILibCore.start(WPILibCore.java:51)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:936)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:319)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:391)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.defineClass(ModuleClassLoader.java:272)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.defineClass(ClasspathManager.java:632)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findClassImpl(ClasspathManager.java:588)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:540)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:527)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:320)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at edu.wpi.first.wpilib.plugins.cpp.WPILibCPPPlugin.earlyStartup(WPILibCPPPlugin.java:81)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.159
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.160
+!MESSAGE Install necessary for tools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.161
+!MESSAGE 	ZipEntry OutlineViewer.jar: 279563
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.170
+!MESSAGE 	ZipEntry RobotBuilder.jar: 2299496
+
+!ENTRY org.eclipse.ui 4 4 2014-11-24 16:27:30.178
+!MESSAGE Could not create action delegate for id: edu.wpi.first.wpilib.plugins.core.actions.RunSimulationSmartDashboardAction
+
+!ENTRY org.eclipse.equinox.registry 4 1 2014-11-24 16:27:30.178
+!MESSAGE Plug-in edu.wpi.first.wpilib.plugins.core was unable to load class edu.wpi.first.wpilib.plugins.core.actions.RunSimulationSmartDashboardAction.
+!STACK 0
+java.lang.ClassNotFoundException: edu.wpi.first.wpilib.plugins.core.actions.RunSimulationSmartDashboardAction cannot be found by edu.wpi.first.wpilib.plugins.core_0.1.0.201411200101
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:568)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:285)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(PluginAction.java:122)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(WWinPluginAction.java:167)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(AbstractUIPlugin.java:492)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.215
+!MESSAGE 	ZipEntry SmartDashboard.jar: 2326387
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.263
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.263
+!MESSAGE Installing cpp if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.264
+!MESSAGE Install necessary for cpp
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.266
+!MESSAGE 	ZipEntry ant/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.267
+!MESSAGE 	ZipEntry include/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.267
+!MESSAGE 	ZipEntry include/Buttons/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.269
+!MESSAGE 	ZipEntry include/CAN/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.270
+!MESSAGE 	ZipEntry include/Commands/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.270
+!MESSAGE 	ZipEntry include/HAL/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.271
+!MESSAGE 	ZipEntry include/HAL/cpp/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.271
+!MESSAGE 	ZipEntry include/Internal/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.272
+!MESSAGE 	ZipEntry include/LiveWindow/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.273
+!MESSAGE 	ZipEntry include/NetworkCommunication/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.274
+!MESSAGE 	ZipEntry include/OSAL/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.274
+!MESSAGE 	ZipEntry include/SmartDashboard/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.275
+!MESSAGE 	ZipEntry include/interfaces/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.275
+!MESSAGE 	ZipEntry include/networktables/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.276
+!MESSAGE 	ZipEntry include/networktables2/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.276
+!MESSAGE 	ZipEntry include/networktables2/client/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.277
+!MESSAGE 	ZipEntry include/networktables2/connection/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.277
+!MESSAGE 	ZipEntry include/networktables2/server/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.278
+!MESSAGE 	ZipEntry include/networktables2/stream/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.278
+!MESSAGE 	ZipEntry include/networktables2/thread/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.279
+!MESSAGE 	ZipEntry include/networktables2/type/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.280
+!MESSAGE 	ZipEntry include/networktables2/util/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.280
+!MESSAGE 	ZipEntry include/tables/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.281
+!MESSAGE 	ZipEntry lib/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.281
+!MESSAGE 	ZipEntry sim/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.282
+!MESSAGE 	ZipEntry sim/include/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.282
+!MESSAGE 	ZipEntry sim/include/Buttons/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.283
+!MESSAGE 	ZipEntry sim/include/Commands/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.283
+!MESSAGE 	ZipEntry sim/include/HAL/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.284
+!MESSAGE 	ZipEntry sim/include/HAL/cpp/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.284
+!MESSAGE 	ZipEntry sim/include/LiveWindow/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.285
+!MESSAGE 	ZipEntry sim/include/OSAL/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.285
+!MESSAGE 	ZipEntry sim/include/SmartDashboard/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.286
+!MESSAGE 	ZipEntry sim/include/interfaces/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.287
+!MESSAGE 	ZipEntry sim/include/networktables/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.287
+!MESSAGE 	ZipEntry sim/include/networktables2/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.288
+!MESSAGE 	ZipEntry sim/include/networktables2/client/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.288
+!MESSAGE 	ZipEntry sim/include/networktables2/connection/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.288
+!MESSAGE 	ZipEntry sim/include/networktables2/server/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.289
+!MESSAGE 	ZipEntry sim/include/networktables2/stream/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.289
+!MESSAGE 	ZipEntry sim/include/networktables2/thread/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.290
+!MESSAGE 	ZipEntry sim/include/networktables2/type/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.291
+!MESSAGE 	ZipEntry sim/include/networktables2/util/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.291
+!MESSAGE 	ZipEntry sim/include/simulation/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.291
+!MESSAGE 	ZipEntry sim/include/simulation/msgs/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.292
+!MESSAGE 	ZipEntry sim/include/tables/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.292
+!MESSAGE 	ZipEntry sim/lib/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.292
+!MESSAGE 	ZipEntry sim/tools/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.293
+!MESSAGE 	ZipEntry ant/ant-classloadertask.jar: 70515
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.294
+!MESSAGE 	ZipEntry ant/ant-contrib.jar: 194050
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.298
+!MESSAGE 	ZipEntry ant/build.properties: 425
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.298
+!MESSAGE 	ZipEntry ant/build.xml: 4143
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.299
+!MESSAGE 	ZipEntry ant/jsch-0.1.50.jar: 249282
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.304
+!MESSAGE 	ZipEntry ant/robotCommand: 63
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.305
+!MESSAGE 	ZipEntry include/ADXL345_I2C.h: 1727
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.305
+!MESSAGE 	ZipEntry include/ADXL345_SPI.h: 1835
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.306
+!MESSAGE 	ZipEntry include/AnalogAccelerometer.h: 1468
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.306
+!MESSAGE 	ZipEntry include/AnalogInput.h: 2533
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.307
+!MESSAGE 	ZipEntry include/AnalogOutput.h: 1154
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.307
+!MESSAGE 	ZipEntry include/AnalogPotentiometer.h: 2581
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.308
+!MESSAGE 	ZipEntry include/AnalogTrigger.h: 1101
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.309
+!MESSAGE 	ZipEntry include/AnalogTriggerOutput.h: 2723
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.309
+!MESSAGE 	ZipEntry include/Base.h: 819
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.310
+!MESSAGE 	ZipEntry include/BuiltInAccelerometer.h: 1221
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.311
+!MESSAGE 	ZipEntry include/Buttons/Button.h: 1295
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.312
+!MESSAGE 	ZipEntry include/Buttons/ButtonScheduler.h: 735
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.312
+!MESSAGE 	ZipEntry include/Buttons/CancelButtonScheduler.h: 765
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.313
+!MESSAGE 	ZipEntry include/Buttons/HeldButtonScheduler.h: 727
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.314
+!MESSAGE 	ZipEntry include/Buttons/InternalButton.h: 749
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.314
+!MESSAGE 	ZipEntry include/Buttons/JoystickButton.h: 723
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.315
+!MESSAGE 	ZipEntry include/Buttons/NetworkButton.h: 762
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.315
+!MESSAGE 	ZipEntry include/Buttons/PressedButtonScheduler.h: 742
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.315
+!MESSAGE 	ZipEntry include/Buttons/ReleasedButtonScheduler.h: 747
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.316
+!MESSAGE 	ZipEntry include/Buttons/ToggleButtonScheduler.h: 765
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.316
+!MESSAGE 	ZipEntry include/Buttons/Trigger.h: 1608
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.317
+!MESSAGE 	ZipEntry include/CAN/can_proto.h: 20248
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.317
+!MESSAGE 	ZipEntry include/CANJaguar.h: 8417
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.318
+!MESSAGE 	ZipEntry include/CameraServer.h: 1733
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.319
+!MESSAGE 	ZipEntry include/Commands/Command.h: 5675
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.319
+!MESSAGE 	ZipEntry include/Commands/CommandGroup.h: 2439
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.320
+!MESSAGE 	ZipEntry include/Commands/CommandGroupEntry.h: 835
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.320
+!MESSAGE 	ZipEntry include/Commands/PIDCommand.h: 1687
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.321
+!MESSAGE 	ZipEntry include/Commands/PIDSubsystem.h: 2347
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.322
+!MESSAGE 	ZipEntry include/Commands/PrintCommand.h: 790
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.322
+!MESSAGE 	ZipEntry include/Commands/Scheduler.h: 1942
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.323
+!MESSAGE 	ZipEntry include/Commands/StartCommand.h: 779
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.323
+!MESSAGE 	ZipEntry include/Commands/Subsystem.h: 1243
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.324
+!MESSAGE 	ZipEntry include/Commands/WaitCommand.h: 777
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.325
+!MESSAGE 	ZipEntry include/Commands/WaitForChildren.h: 803
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.325
+!MESSAGE 	ZipEntry include/Commands/WaitUntilCommand.h: 829
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.326
+!MESSAGE 	ZipEntry include/Compressor.h: 1380
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.326
+!MESSAGE 	ZipEntry include/Controller.h: 1012
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.327
+!MESSAGE 	ZipEntry include/ControllerPower.h: 946
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.328
+!MESSAGE 	ZipEntry include/Counter.h: 3324
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.328
+!MESSAGE 	ZipEntry include/CounterBase.h: 1070
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.329
+!MESSAGE 	ZipEntry include/DigitalInput.h: 1479
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.330
+!MESSAGE 	ZipEntry include/DigitalOutput.h: 1673
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.331
+!MESSAGE 	ZipEntry include/DigitalSource.h: 1063
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.332
+!MESSAGE 	ZipEntry include/DoubleSolenoid.h: 1750
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.332
+!MESSAGE 	ZipEntry include/DriverStation.h: 3330
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.333
+!MESSAGE 	ZipEntry include/Encoder.h: 3180
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.334
+!MESSAGE 	ZipEntry include/Error.h: 1416
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.334
+!MESSAGE 	ZipEntry include/ErrorBase.h: 3808
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.335
+!MESSAGE 	ZipEntry include/GearTooth.h: 1127
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.336
+!MESSAGE 	ZipEntry include/GenericHID.h: 1097
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.336
+!MESSAGE 	ZipEntry include/Gyro.h: 2281
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.336
+!MESSAGE 	ZipEntry include/HAL/Accelerometer.hpp: 279
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.337
+!MESSAGE 	ZipEntry include/HAL/Analog.hpp: 3697
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.337
+!MESSAGE 	ZipEntry include/HAL/CAN.hpp: 1149
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.338
+!MESSAGE 	ZipEntry include/HAL/Compressor.hpp: 668
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.338
+!MESSAGE 	ZipEntry include/HAL/Digital.hpp: 6261
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.339
+!MESSAGE 	ZipEntry include/HAL/Errors.hpp: 3619
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.339
+!MESSAGE 	ZipEntry include/HAL/HAL.hpp: 6706
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.340
+!MESSAGE 	ZipEntry include/HAL/Interrupts.hpp: 1143
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.340
+!MESSAGE 	ZipEntry include/HAL/Notifier.hpp: 337
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.341
+!MESSAGE 	ZipEntry include/HAL/PDP.hpp: 249
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.342
+!MESSAGE 	ZipEntry include/HAL/Power.hpp: 642
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.342
+!MESSAGE 	ZipEntry include/HAL/Semaphore.hpp: 1337
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.343
+!MESSAGE 	ZipEntry include/HAL/SerialPort.hpp: 1340
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.344
+!MESSAGE 	ZipEntry include/HAL/Solenoid.hpp: 355
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.344
+!MESSAGE 	ZipEntry include/HAL/Task.hpp: 1559
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.345
+!MESSAGE 	ZipEntry include/HAL/Utilities.hpp: 270
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.345
+!MESSAGE 	ZipEntry include/HAL/cpp/Resource.hpp: 1371
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.346
+!MESSAGE 	ZipEntry include/HAL/cpp/Synchronized.hpp: 3299
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.347
+!MESSAGE 	ZipEntry include/HLUsageReporting.h: 811
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.347
+!MESSAGE 	ZipEntry include/I2C.h: 1244
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.348
+!MESSAGE 	ZipEntry include/Internal/HardwareHLReporting.h: 183
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.349
+!MESSAGE 	ZipEntry include/InterruptableSensorBase.h: 1776
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.350
+!MESSAGE 	ZipEntry include/IterativeRobot.h: 2641
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.351
+!MESSAGE 	ZipEntry include/Jaguar.h: 814
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.351
+!MESSAGE 	ZipEntry include/Joystick.h: 2581
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.352
+!MESSAGE 	ZipEntry include/LiveWindow/LiveWindow.h: 1571
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.353
+!MESSAGE 	ZipEntry include/LiveWindow/LiveWindowSendable.h: 1171
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.353
+!MESSAGE 	ZipEntry include/LiveWindow/LiveWindowStatusListener.h: 317
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.354
+!MESSAGE 	ZipEntry include/Log.hpp: 2391
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.355
+!MESSAGE 	ZipEntry include/MotorSafety.h: 746
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.355
+!MESSAGE 	ZipEntry include/MotorSafetyHelper.h: 1438
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.356
+!MESSAGE 	ZipEntry include/NIIMAQdx.h: 40516
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.357
+!MESSAGE 	ZipEntry include/NTErrorBase.h: 1626
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.358
+!MESSAGE 	ZipEntry include/NetworkCommunication/AICalibration.h: 464
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.358
+!MESSAGE 	ZipEntry include/NetworkCommunication/CANInterfacePlugin.h: 3823
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.359
+!MESSAGE 	ZipEntry include/NetworkCommunication/CANSessionMux.h: 2886
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.360
+!MESSAGE 	ZipEntry include/NetworkCommunication/FRCComm.h: 3941
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.360
+!MESSAGE 	ZipEntry include/NetworkCommunication/LoadOut.h: 1664
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.361
+!MESSAGE 	ZipEntry include/NetworkCommunication/UsageReporting.h: 4333
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.361
+!MESSAGE 	ZipEntry include/NetworkCommunication/symModuleLink.h: 352
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.362
+!MESSAGE 	ZipEntry include/Notifier.h: 1828
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.362
+!MESSAGE 	ZipEntry include/OSAL/Synchronized.h: 2578
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.363
+!MESSAGE 	ZipEntry include/OSAL/Task.h: 1768
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.364
+!MESSAGE 	ZipEntry include/PIDController.h: 3578
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.364
+!MESSAGE 	ZipEntry include/PIDOutput.h: 683
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.365
+!MESSAGE 	ZipEntry include/PIDSource.h: 737
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.365
+!MESSAGE 	ZipEntry include/PWM.h: 4436
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.366
+!MESSAGE 	ZipEntry include/PowerDistributionPanel.h: 856
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.366
+!MESSAGE 	ZipEntry include/Preferences.h: 3548
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.367
+!MESSAGE 	ZipEntry include/Relay.h: 1847
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.367
+!MESSAGE 	ZipEntry include/Resource.h: 1344
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.368
+!MESSAGE 	ZipEntry include/RobotBase.h: 1902
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.369
+!MESSAGE 	ZipEntry include/RobotDrive.h: 4474
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.370
+!MESSAGE 	ZipEntry include/RobotState.h: 938
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.370
+!MESSAGE 	ZipEntry include/SPI.h: 1438
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.371
+!MESSAGE 	ZipEntry include/SafePWM.h: 1209
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.371
+!MESSAGE 	ZipEntry include/SampleRobot.h: 744
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.372
+!MESSAGE 	ZipEntry include/SensorBase.h: 1902
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.373
+!MESSAGE 	ZipEntry include/SerialPort.h: 2156
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.374
+!MESSAGE 	ZipEntry include/Servo.h: 1531
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.374
+!MESSAGE 	ZipEntry include/SmartDashboard/NamedSendable.h: 537
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.375
+!MESSAGE 	ZipEntry include/SmartDashboard/Sendable.h: 988
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.375
+!MESSAGE 	ZipEntry include/SmartDashboard/SendableChooser.h: 1579
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.376
+!MESSAGE 	ZipEntry include/SmartDashboard/SmartDashboard.h: 1961
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.376
+!MESSAGE 	ZipEntry include/Solenoid.h: 1358
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.377
+!MESSAGE 	ZipEntry include/SolenoidBase.h: 996
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.377
+!MESSAGE 	ZipEntry include/SpeedController.h: 1180
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.378
+!MESSAGE 	ZipEntry include/Talon.h: 802
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.378
+!MESSAGE 	ZipEntry include/Task.h: 1417
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.379
+!MESSAGE 	ZipEntry include/Timer.h: 1478
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.379
+!MESSAGE 	ZipEntry include/Ultrasonic.h: 3030
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.379
+!MESSAGE 	ZipEntry include/Utility.h: 1884
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.380
+!MESSAGE 	ZipEntry include/Victor.h: 806
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.380
+!MESSAGE 	ZipEntry include/WPIErrors.h: 4849
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.381
+!MESSAGE 	ZipEntry include/WPILib.h: 2494
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.381
+!MESSAGE 	ZipEntry include/interfaces/Accelerometer.h: 1371
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.381
+!MESSAGE 	ZipEntry include/interfaces/Potentiometer.h: 792
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.382
+!MESSAGE 	ZipEntry include/networktables/NetworkTable.h: 8494
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.382
+!MESSAGE 	ZipEntry include/networktables/NetworkTableConnectionListenerAdapter.h: 789
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.383
+!MESSAGE 	ZipEntry include/networktables/NetworkTableKeyListenerAdapter.h: 872
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.383
+!MESSAGE 	ZipEntry include/networktables/NetworkTableListenerAdapter.h: 741
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.384
+!MESSAGE 	ZipEntry include/networktables/NetworkTableMode.h: 1649
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.384
+!MESSAGE 	ZipEntry include/networktables/NetworkTableProvider.h: 906
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.385
+!MESSAGE 	ZipEntry include/networktables/NetworkTableSubListenerAdapter.h: 873
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.385
+!MESSAGE 	ZipEntry include/networktables2/AbstractNetworkTableEntryStore.h: 2121
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.386
+!MESSAGE 	ZipEntry include/networktables2/FlushableOutgoingEntryReceiver.h: 520
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.386
+!MESSAGE 	ZipEntry include/networktables2/IncomingEntryReceiver.h: 547
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.387
+!MESSAGE 	ZipEntry include/networktables2/NetworkTableEntry.h: 2011
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.387
+!MESSAGE 	ZipEntry include/networktables2/NetworkTableMessageType.h: 774
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.387
+!MESSAGE 	ZipEntry include/networktables2/NetworkTableNode.h: 2857
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.388
+!MESSAGE 	ZipEntry include/networktables2/OutgoingEntryReceiver.h: 776
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.389
+!MESSAGE 	ZipEntry include/networktables2/TableKeyExistsWithDifferentTypeException.h: 1319
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.389
+!MESSAGE 	ZipEntry include/networktables2/TransactionDirtier.h: 772
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.389
+!MESSAGE 	ZipEntry include/networktables2/WriteManager.h: 2107
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.390
+!MESSAGE 	ZipEntry include/networktables2/client/ClientConnectionAdapter.h: 3159
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.391
+!MESSAGE 	ZipEntry include/networktables2/client/ClientConnectionListenerManager.h: 648
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.391
+!MESSAGE 	ZipEntry include/networktables2/client/ClientConnectionState.h: 2340
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.392
+!MESSAGE 	ZipEntry include/networktables2/client/ClientNetworkTableEntryStore.h: 1157
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.392
+!MESSAGE 	ZipEntry include/networktables2/client/NetworkTableClient.h: 1162
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.393
+!MESSAGE 	ZipEntry include/networktables2/connection/BadMessageException.h: 428
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.393
+!MESSAGE 	ZipEntry include/networktables2/connection/ConnectionAdapter.h: 1215
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.393
+!MESSAGE 	ZipEntry include/networktables2/connection/ConnectionMonitorThread.h: 1041
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.394
+!MESSAGE 	ZipEntry include/networktables2/connection/DataIOStream.h: 1061
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.394
+!MESSAGE 	ZipEntry include/networktables2/connection/NetworkTableConnection.h: 1415
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.395
+!MESSAGE 	ZipEntry include/networktables2/server/NetworkTableServer.h: 1517
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.395
+!MESSAGE 	ZipEntry include/networktables2/server/ServerAdapterManager.h: 658
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.395
+!MESSAGE 	ZipEntry include/networktables2/server/ServerConnectionAdapter.h: 3009
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.396
+!MESSAGE 	ZipEntry include/networktables2/server/ServerConnectionList.h: 1392
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.397
+!MESSAGE 	ZipEntry include/networktables2/server/ServerConnectionState.h: 1478
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.397
+!MESSAGE 	ZipEntry include/networktables2/server/ServerIncomingConnectionListener.h: 684
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.397
+!MESSAGE 	ZipEntry include/networktables2/server/ServerIncomingStreamMonitor.h: 2243
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.398
+!MESSAGE 	ZipEntry include/networktables2/server/ServerNetworkTableEntryStore.h: 1269
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.398
+!MESSAGE 	ZipEntry include/networktables2/stream/FDIOStream.h: 487
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.399
+!MESSAGE 	ZipEntry include/networktables2/stream/IOStream.h: 381
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.400
+!MESSAGE 	ZipEntry include/networktables2/stream/IOStreamFactory.h: 568
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.400
+!MESSAGE 	ZipEntry include/networktables2/stream/IOStreamProvider.h: 695
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.401
+!MESSAGE 	ZipEntry include/networktables2/stream/SocketServerStreamProvider.h: 577
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.401
+!MESSAGE 	ZipEntry include/networktables2/stream/SocketStreamFactory.h: 549
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.402
+!MESSAGE 	ZipEntry include/networktables2/stream/SocketStreams.h: 908
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.402
+!MESSAGE 	ZipEntry include/networktables2/thread/DefaultThreadManager.h: 1225
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.403
+!MESSAGE 	ZipEntry include/networktables2/thread/NTThread.h: 431
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.403
+!MESSAGE 	ZipEntry include/networktables2/thread/NTThreadManager.h: 732
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.404
+!MESSAGE 	ZipEntry include/networktables2/thread/PeriodicRunnable.h: 610
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.405
+!MESSAGE 	ZipEntry include/networktables2/type/ArrayData.h: 2158
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.405
+!MESSAGE 	ZipEntry include/networktables2/type/ArrayEntryType.h: 2569
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.405
+!MESSAGE 	ZipEntry include/networktables2/type/BooleanArray.h: 560
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.406
+!MESSAGE 	ZipEntry include/networktables2/type/ComplexData.h: 759
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.406
+!MESSAGE 	ZipEntry include/networktables2/type/ComplexEntryType.h: 1465
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.407
+!MESSAGE 	ZipEntry include/networktables2/type/DefaultEntryTypes.h: 2252
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.407
+!MESSAGE 	ZipEntry include/networktables2/type/NetworkTableEntryType.h: 2421
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.407
+!MESSAGE 	ZipEntry include/networktables2/type/NetworkTableEntryTypeManager.h: 1227
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.408
+!MESSAGE 	ZipEntry include/networktables2/type/NumberArray.h: 562
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.409
+!MESSAGE 	ZipEntry include/networktables2/type/StringArray.h: 576
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.409
+!MESSAGE 	ZipEntry include/networktables2/util/EOFException.h: 570
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.409
+!MESSAGE 	ZipEntry include/networktables2/util/IOException.h: 1199
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.410
+!MESSAGE 	ZipEntry include/networktables2/util/IllegalStateException.h: 466
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.410
+!MESSAGE 	ZipEntry include/networktables2/util/StringCache.h: 662
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.411
+!MESSAGE 	ZipEntry include/networktables2/util/System.h: 680
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.411
+!MESSAGE 	ZipEntry include/nivision.h: 466204
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.415
+!MESSAGE 	ZipEntry include/pcre.h: 14107
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.416
+!MESSAGE 	ZipEntry include/tables/IRemote.h: 1123
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.416
+!MESSAGE 	ZipEntry include/tables/IRemoteConnectionListener.h: 735
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.417
+!MESSAGE 	ZipEntry include/tables/ITable.h: 5617
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.418
+!MESSAGE 	ZipEntry include/tables/ITableListener.h: 979
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.418
+!MESSAGE 	ZipEntry include/tables/ITableProvider.h: 499
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.419
+!MESSAGE 	ZipEntry include/tables/TableKeyNotDefinedException.h: 709
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.419
+!MESSAGE 	ZipEntry lib/libFRC_NetworkCommunication.so: 74
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.420
+!MESSAGE 	ZipEntry lib/libFRC_NetworkCommunication.so.1: 76
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.420
+!MESSAGE 	ZipEntry lib/libFRC_NetworkCommunication.so.1.5: 78
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.421
+!MESSAGE 	ZipEntry lib/libFRC_NetworkCommunication.so.1.5.0: 499840
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.428
+!MESSAGE 	ZipEntry lib/libFRC_NetworkCommunicationLV.so: 76
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.428
+!MESSAGE 	ZipEntry lib/libFRC_NetworkCommunicationLV.so.1: 78
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.428
+!MESSAGE 	ZipEntry lib/libFRC_NetworkCommunicationLV.so.1.5: 80
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.429
+!MESSAGE 	ZipEntry lib/libFRC_NetworkCommunicationLV.so.1.5.0: 4612
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.429
+!MESSAGE 	ZipEntry lib/libGCBase_gcc-4.4-arm_v2_3.so: 110437
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.431
+!MESSAGE 	ZipEntry lib/libGenApi_gcc-4.4-arm_v2_3.so: 3437504
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.472
+!MESSAGE 	ZipEntry lib/libHALAthena.a: 4043076
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.528
+!MESSAGE 	ZipEntry lib/libHALAthena_shared.so: 1266344
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.548
+!MESSAGE 	ZipEntry lib/libLog_gcc-4.4-arm_v2_3.so: 26237
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.549
+!MESSAGE 	ZipEntry lib/libMathParser_gcc-4.4-arm_v2_3.so: 49301
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.550
+!MESSAGE 	ZipEntry lib/libNetworkTables.a: 11736088
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.691
+!MESSAGE 	ZipEntry lib/libNiFpga.so: 57
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.692
+!MESSAGE 	ZipEntry lib/libNiFpga.so.14: 59
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.692
+!MESSAGE 	ZipEntry lib/libNiFpga.so.14.0: 61
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.692
+!MESSAGE 	ZipEntry lib/libNiFpga.so.14.0.0: 393768
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.697
+!MESSAGE 	ZipEntry lib/libNiFpgaLv.so: 59
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.697
+!MESSAGE 	ZipEntry lib/libNiFpgaLv.so.14: 61
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.698
+!MESSAGE 	ZipEntry lib/libNiFpgaLv.so.14.0: 63
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.698
+!MESSAGE 	ZipEntry lib/libNiFpgaLv.so.14.0.0: 73228
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.699
+!MESSAGE 	ZipEntry lib/libNiRioSrv.so: 59
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.700
+!MESSAGE 	ZipEntry lib/libNiRioSrv.so.14: 61
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.700
+!MESSAGE 	ZipEntry lib/libNiRioSrv.so.14.0: 63
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.701
+!MESSAGE 	ZipEntry lib/libNiRioSrv.so.14.0.0: 842316
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.713
+!MESSAGE 	ZipEntry lib/libRoboRIO_FRC_ChipObject.so: 72
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.713
+!MESSAGE 	ZipEntry lib/libRoboRIO_FRC_ChipObject.so.1: 74
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.714
+!MESSAGE 	ZipEntry lib/libRoboRIO_FRC_ChipObject.so.1.2: 76
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.714
+!MESSAGE 	ZipEntry lib/libRoboRIO_FRC_ChipObject.so.1.2.0: 381560
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.719
+!MESSAGE 	ZipEntry lib/libi2c.so: 53
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.719
+!MESSAGE 	ZipEntry lib/libi2c.so.1: 55
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.720
+!MESSAGE 	ZipEntry lib/libi2c.so.1.0: 57
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.720
+!MESSAGE 	ZipEntry lib/libi2c.so.1.0.0: 4076
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.721
+!MESSAGE 	ZipEntry lib/liblog4cpp_gcc-4.4-arm_v2_3.so: 324751
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.726
+!MESSAGE 	ZipEntry lib/libni_emb.so: 56
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.726
+!MESSAGE 	ZipEntry lib/libni_emb.so.7: 58
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.726
+!MESSAGE 	ZipEntry lib/libni_emb.so.7.0: 60
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.727
+!MESSAGE 	ZipEntry lib/libni_emb.so.7.0.0: 189204
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.731
+!MESSAGE 	ZipEntry lib/libni_rtlog.so: 58
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.732
+!MESSAGE 	ZipEntry lib/libni_rtlog.so.2: 60
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.732
+!MESSAGE 	ZipEntry lib/libni_rtlog.so.2.3: 62
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.732
+!MESSAGE 	ZipEntry lib/libni_rtlog.so.2.3.0: 9992
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.733
+!MESSAGE 	ZipEntry lib/libniimaqdx.so: 2215400
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.762
+!MESSAGE 	ZipEntry lib/libnirio_emb_can.so: 64
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.762
+!MESSAGE 	ZipEntry lib/libnirio_emb_can.so.14: 66
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.762
+!MESSAGE 	ZipEntry lib/libnirio_emb_can.so.14.0: 68
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.763
+!MESSAGE 	ZipEntry lib/libnirio_emb_can.so.14.0.0: 61780
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.764
+!MESSAGE 	ZipEntry lib/libnivision.so: 9654528
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.889
+!MESSAGE 	ZipEntry lib/libnivissvc.so: 2806736
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.926
+!MESSAGE 	ZipEntry lib/libspi.so: 53
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.927
+!MESSAGE 	ZipEntry lib/libspi.so.1: 55
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.927
+!MESSAGE 	ZipEntry lib/libspi.so.1.0: 57
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.927
+!MESSAGE 	ZipEntry lib/libspi.so.1.0.0: 4400
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.928
+!MESSAGE 	ZipEntry lib/libvisa.so: 196396
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.931
+!MESSAGE 	ZipEntry lib/libwpi.so: 72
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.932
+!MESSAGE 	ZipEntry lib/libwpi_2015.so: 445
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:30.932
+!MESSAGE 	ZipEntry lib/libwpilib_nonshared.a: 21196942
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.187
+!MESSAGE 	ZipEntry sim/include/AnalogInput.h: 1888
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.188
+!MESSAGE 	ZipEntry sim/include/AnalogPotentiometer.h: 2554
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.188
+!MESSAGE 	ZipEntry sim/include/Base.h: 819
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.189
+!MESSAGE 	ZipEntry sim/include/Buttons/Button.h: 1295
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.189
+!MESSAGE 	ZipEntry sim/include/Buttons/ButtonScheduler.h: 735
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.189
+!MESSAGE 	ZipEntry sim/include/Buttons/CancelButtonScheduler.h: 765
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.190
+!MESSAGE 	ZipEntry sim/include/Buttons/HeldButtonScheduler.h: 727
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.191
+!MESSAGE 	ZipEntry sim/include/Buttons/InternalButton.h: 749
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.192
+!MESSAGE 	ZipEntry sim/include/Buttons/JoystickButton.h: 723
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.192
+!MESSAGE 	ZipEntry sim/include/Buttons/NetworkButton.h: 762
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.192
+!MESSAGE 	ZipEntry sim/include/Buttons/PressedButtonScheduler.h: 742
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.193
+!MESSAGE 	ZipEntry sim/include/Buttons/ReleasedButtonScheduler.h: 747
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.193
+!MESSAGE 	ZipEntry sim/include/Buttons/ToggleButtonScheduler.h: 765
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.193
+!MESSAGE 	ZipEntry sim/include/Buttons/Trigger.h: 1608
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.194
+!MESSAGE 	ZipEntry sim/include/Commands/Command.h: 5675
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.194
+!MESSAGE 	ZipEntry sim/include/Commands/CommandGroup.h: 2439
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.194
+!MESSAGE 	ZipEntry sim/include/Commands/CommandGroupEntry.h: 835
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.195
+!MESSAGE 	ZipEntry sim/include/Commands/PIDCommand.h: 1687
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.196
+!MESSAGE 	ZipEntry sim/include/Commands/PIDSubsystem.h: 2347
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.196
+!MESSAGE 	ZipEntry sim/include/Commands/PrintCommand.h: 790
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.197
+!MESSAGE 	ZipEntry sim/include/Commands/Scheduler.h: 1942
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.197
+!MESSAGE 	ZipEntry sim/include/Commands/StartCommand.h: 779
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.197
+!MESSAGE 	ZipEntry sim/include/Commands/Subsystem.h: 1243
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.198
+!MESSAGE 	ZipEntry sim/include/Commands/WaitCommand.h: 777
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.198
+!MESSAGE 	ZipEntry sim/include/Commands/WaitForChildren.h: 803
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.199
+!MESSAGE 	ZipEntry sim/include/Commands/WaitUntilCommand.h: 829
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.199
+!MESSAGE 	ZipEntry sim/include/Controller.h: 1012
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.199
+!MESSAGE 	ZipEntry sim/include/Counter.h: 3667
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.200
+!MESSAGE 	ZipEntry sim/include/CounterBase.h: 1049
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.200
+!MESSAGE 	ZipEntry sim/include/DigitalInput.h: 1343
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.200
+!MESSAGE 	ZipEntry sim/include/DoubleSolenoid.h: 1567
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.201
+!MESSAGE 	ZipEntry sim/include/DriverStation.h: 4047
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.201
+!MESSAGE 	ZipEntry sim/include/Encoder.h: 3331
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.202
+!MESSAGE 	ZipEntry sim/include/Error.h: 1416
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.202
+!MESSAGE 	ZipEntry sim/include/ErrorBase.h: 3808
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.202
+!MESSAGE 	ZipEntry sim/include/GenericHID.h: 1097
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.203
+!MESSAGE 	ZipEntry sim/include/Gyro.h: 2079
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.203
+!MESSAGE 	ZipEntry sim/include/HAL/Accelerometer.hpp: 279
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.203
+!MESSAGE 	ZipEntry sim/include/HAL/Analog.hpp: 3697
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.204
+!MESSAGE 	ZipEntry sim/include/HAL/CAN.hpp: 1149
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.204
+!MESSAGE 	ZipEntry sim/include/HAL/Compressor.hpp: 668
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.205
+!MESSAGE 	ZipEntry sim/include/HAL/Digital.hpp: 6261
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.206
+!MESSAGE 	ZipEntry sim/include/HAL/Errors.hpp: 3619
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.206
+!MESSAGE 	ZipEntry sim/include/HAL/HAL.hpp: 6706
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.207
+!MESSAGE 	ZipEntry sim/include/HAL/Interrupts.hpp: 1143
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.207
+!MESSAGE 	ZipEntry sim/include/HAL/Notifier.hpp: 337
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.207
+!MESSAGE 	ZipEntry sim/include/HAL/PDP.hpp: 249
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.208
+!MESSAGE 	ZipEntry sim/include/HAL/Power.hpp: 642
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.208
+!MESSAGE 	ZipEntry sim/include/HAL/Semaphore.hpp: 1337
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.208
+!MESSAGE 	ZipEntry sim/include/HAL/SerialPort.hpp: 1340
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.209
+!MESSAGE 	ZipEntry sim/include/HAL/Solenoid.hpp: 355
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.209
+!MESSAGE 	ZipEntry sim/include/HAL/Task.hpp: 1559
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.209
+!MESSAGE 	ZipEntry sim/include/HAL/Utilities.hpp: 270
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.210
+!MESSAGE 	ZipEntry sim/include/HAL/cpp/Resource.hpp: 1371
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.210
+!MESSAGE 	ZipEntry sim/include/HAL/cpp/Synchronized.hpp: 3299
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.210
+!MESSAGE 	ZipEntry sim/include/HLUsageReporting.h: 811
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.211
+!MESSAGE 	ZipEntry sim/include/IterativeRobot.h: 2789
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.211
+!MESSAGE 	ZipEntry sim/include/Jaguar.h: 814
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.212
+!MESSAGE 	ZipEntry sim/include/Joystick.h: 2562
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.212
+!MESSAGE 	ZipEntry sim/include/LiveWindow/LiveWindow.h: 1571
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.212
+!MESSAGE 	ZipEntry sim/include/LiveWindow/LiveWindowSendable.h: 1171
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.213
+!MESSAGE 	ZipEntry sim/include/LiveWindow/LiveWindowStatusListener.h: 317
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.213
+!MESSAGE 	ZipEntry sim/include/Log.hpp: 2391
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.214
+!MESSAGE 	ZipEntry sim/include/MotorSafety.h: 746
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.214
+!MESSAGE 	ZipEntry sim/include/MotorSafetyHelper.h: 1438
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.214
+!MESSAGE 	ZipEntry sim/include/NTErrorBase.h: 1626
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.215
+!MESSAGE 	ZipEntry sim/include/Notifier.h: 1828
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.215
+!MESSAGE 	ZipEntry sim/include/OSAL/Synchronized.h: 2578
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.215
+!MESSAGE 	ZipEntry sim/include/OSAL/Task.h: 1768
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.216
+!MESSAGE 	ZipEntry sim/include/PIDController.h: 3578
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.216
+!MESSAGE 	ZipEntry sim/include/PIDOutput.h: 683
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.217
+!MESSAGE 	ZipEntry sim/include/PIDSource.h: 737
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.218
+!MESSAGE 	ZipEntry sim/include/PWM.h: 3617
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.218
+!MESSAGE 	ZipEntry sim/include/Relay.h: 1963
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.218
+!MESSAGE 	ZipEntry sim/include/Resource.h: 1344
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.219
+!MESSAGE 	ZipEntry sim/include/RobotBase.h: 1488
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.219
+!MESSAGE 	ZipEntry sim/include/RobotDrive.h: 4385
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.220
+!MESSAGE 	ZipEntry sim/include/RobotState.h: 938
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.220
+!MESSAGE 	ZipEntry sim/include/SafePWM.h: 1209
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.220
+!MESSAGE 	ZipEntry sim/include/SampleRobot.h: 744
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.221
+!MESSAGE 	ZipEntry sim/include/SensorBase.h: 1902
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.221
+!MESSAGE 	ZipEntry sim/include/SmartDashboard/NamedSendable.h: 537
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.221
+!MESSAGE 	ZipEntry sim/include/SmartDashboard/Sendable.h: 988
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.222
+!MESSAGE 	ZipEntry sim/include/SmartDashboard/SendableChooser.h: 1579
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.222
+!MESSAGE 	ZipEntry sim/include/SmartDashboard/SmartDashboard.h: 1961
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.227
+!MESSAGE 	ZipEntry sim/include/Solenoid.h: 1361
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.228
+!MESSAGE 	ZipEntry sim/include/SpeedController.h: 1157
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.228
+!MESSAGE 	ZipEntry sim/include/Talon.h: 802
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.229
+!MESSAGE 	ZipEntry sim/include/Task.h: 1417
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.231
+!MESSAGE 	ZipEntry sim/include/Timer.h: 1478
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.231
+!MESSAGE 	ZipEntry sim/include/Utility.h: 1884
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.235
+!MESSAGE 	ZipEntry sim/include/Victor.h: 806
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.235
+!MESSAGE 	ZipEntry sim/include/WPIErrors.h: 4849
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.236
+!MESSAGE 	ZipEntry sim/include/WPILib.h: 1317
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.236
+!MESSAGE 	ZipEntry sim/include/interfaces/Accelerometer.h: 1371
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.237
+!MESSAGE 	ZipEntry sim/include/interfaces/Potentiometer.h: 792
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.237
+!MESSAGE 	ZipEntry sim/include/networktables/NetworkTable.h: 8494
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.237
+!MESSAGE 	ZipEntry sim/include/networktables/NetworkTableConnectionListenerAdapter.h: 789
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.238
+!MESSAGE 	ZipEntry sim/include/networktables/NetworkTableKeyListenerAdapter.h: 872
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.240
+!MESSAGE 	ZipEntry sim/include/networktables/NetworkTableListenerAdapter.h: 741
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.240
+!MESSAGE 	ZipEntry sim/include/networktables/NetworkTableMode.h: 1649
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.240
+!MESSAGE 	ZipEntry sim/include/networktables/NetworkTableProvider.h: 906
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.241
+!MESSAGE 	ZipEntry sim/include/networktables/NetworkTableSubListenerAdapter.h: 873
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.242
+!MESSAGE 	ZipEntry sim/include/networktables2/AbstractNetworkTableEntryStore.h: 2121
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.242
+!MESSAGE 	ZipEntry sim/include/networktables2/FlushableOutgoingEntryReceiver.h: 520
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.242
+!MESSAGE 	ZipEntry sim/include/networktables2/IncomingEntryReceiver.h: 547
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.243
+!MESSAGE 	ZipEntry sim/include/networktables2/NetworkTableEntry.h: 2011
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.243
+!MESSAGE 	ZipEntry sim/include/networktables2/NetworkTableMessageType.h: 774
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.243
+!MESSAGE 	ZipEntry sim/include/networktables2/NetworkTableNode.h: 2857
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.244
+!MESSAGE 	ZipEntry sim/include/networktables2/OutgoingEntryReceiver.h: 776
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.244
+!MESSAGE 	ZipEntry sim/include/networktables2/TableKeyExistsWithDifferentTypeException.h: 1319
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.244
+!MESSAGE 	ZipEntry sim/include/networktables2/TransactionDirtier.h: 772
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.245
+!MESSAGE 	ZipEntry sim/include/networktables2/WriteManager.h: 2107
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.245
+!MESSAGE 	ZipEntry sim/include/networktables2/client/ClientConnectionAdapter.h: 3159
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.245
+!MESSAGE 	ZipEntry sim/include/networktables2/client/ClientConnectionListenerManager.h: 648
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.246
+!MESSAGE 	ZipEntry sim/include/networktables2/client/ClientConnectionState.h: 2340
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.247
+!MESSAGE 	ZipEntry sim/include/networktables2/client/ClientNetworkTableEntryStore.h: 1157
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.247
+!MESSAGE 	ZipEntry sim/include/networktables2/client/NetworkTableClient.h: 1162
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.247
+!MESSAGE 	ZipEntry sim/include/networktables2/connection/BadMessageException.h: 428
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.248
+!MESSAGE 	ZipEntry sim/include/networktables2/connection/ConnectionAdapter.h: 1215
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.248
+!MESSAGE 	ZipEntry sim/include/networktables2/connection/ConnectionMonitorThread.h: 1041
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.249
+!MESSAGE 	ZipEntry sim/include/networktables2/connection/DataIOStream.h: 1061
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.250
+!MESSAGE 	ZipEntry sim/include/networktables2/connection/NetworkTableConnection.h: 1415
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.250
+!MESSAGE 	ZipEntry sim/include/networktables2/server/NetworkTableServer.h: 1517
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.250
+!MESSAGE 	ZipEntry sim/include/networktables2/server/ServerAdapterManager.h: 658
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.251
+!MESSAGE 	ZipEntry sim/include/networktables2/server/ServerConnectionAdapter.h: 3009
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.253
+!MESSAGE 	ZipEntry sim/include/networktables2/server/ServerConnectionList.h: 1392
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.253
+!MESSAGE 	ZipEntry sim/include/networktables2/server/ServerConnectionState.h: 1478
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.254
+!MESSAGE 	ZipEntry sim/include/networktables2/server/ServerIncomingConnectionListener.h: 684
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.254
+!MESSAGE 	ZipEntry sim/include/networktables2/server/ServerIncomingStreamMonitor.h: 2243
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.254
+!MESSAGE 	ZipEntry sim/include/networktables2/server/ServerNetworkTableEntryStore.h: 1269
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.255
+!MESSAGE 	ZipEntry sim/include/networktables2/stream/FDIOStream.h: 487
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.255
+!MESSAGE 	ZipEntry sim/include/networktables2/stream/IOStream.h: 381
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.255
+!MESSAGE 	ZipEntry sim/include/networktables2/stream/IOStreamFactory.h: 568
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.256
+!MESSAGE 	ZipEntry sim/include/networktables2/stream/IOStreamProvider.h: 695
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.257
+!MESSAGE 	ZipEntry sim/include/networktables2/stream/SocketServerStreamProvider.h: 577
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.257
+!MESSAGE 	ZipEntry sim/include/networktables2/stream/SocketStreamFactory.h: 549
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.257
+!MESSAGE 	ZipEntry sim/include/networktables2/stream/SocketStreams.h: 908
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.258
+!MESSAGE 	ZipEntry sim/include/networktables2/thread/DefaultThreadManager.h: 1225
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.258
+!MESSAGE 	ZipEntry sim/include/networktables2/thread/NTThread.h: 431
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.258
+!MESSAGE 	ZipEntry sim/include/networktables2/thread/NTThreadManager.h: 732
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.259
+!MESSAGE 	ZipEntry sim/include/networktables2/thread/PeriodicRunnable.h: 610
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.260
+!MESSAGE 	ZipEntry sim/include/networktables2/type/ArrayData.h: 2158
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.260
+!MESSAGE 	ZipEntry sim/include/networktables2/type/ArrayEntryType.h: 2569
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.261
+!MESSAGE 	ZipEntry sim/include/networktables2/type/BooleanArray.h: 560
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.261
+!MESSAGE 	ZipEntry sim/include/networktables2/type/ComplexData.h: 759
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.262
+!MESSAGE 	ZipEntry sim/include/networktables2/type/ComplexEntryType.h: 1465
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.262
+!MESSAGE 	ZipEntry sim/include/networktables2/type/DefaultEntryTypes.h: 2252
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.263
+!MESSAGE 	ZipEntry sim/include/networktables2/type/NetworkTableEntryType.h: 2421
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.263
+!MESSAGE 	ZipEntry sim/include/networktables2/type/NetworkTableEntryTypeManager.h: 1227
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.264
+!MESSAGE 	ZipEntry sim/include/networktables2/type/NumberArray.h: 562
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.264
+!MESSAGE 	ZipEntry sim/include/networktables2/type/StringArray.h: 576
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.264
+!MESSAGE 	ZipEntry sim/include/networktables2/util/EOFException.h: 570
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.264
+!MESSAGE 	ZipEntry sim/include/networktables2/util/IOException.h: 1199
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.265
+!MESSAGE 	ZipEntry sim/include/networktables2/util/IllegalStateException.h: 466
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.265
+!MESSAGE 	ZipEntry sim/include/networktables2/util/StringCache.h: 662
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.266
+!MESSAGE 	ZipEntry sim/include/networktables2/util/System.h: 680
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.267
+!MESSAGE 	ZipEntry sim/include/simulation/MainNode.h: 1433
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.267
+!MESSAGE 	ZipEntry sim/include/simulation/SimContinuousOutput.h: 584
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.267
+!MESSAGE 	ZipEntry sim/include/simulation/SimDigitalInput.h: 419
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.268
+!MESSAGE 	ZipEntry sim/include/simulation/SimEncoder.h: 614
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.268
+!MESSAGE 	ZipEntry sim/include/simulation/SimFloatInput.h: 418
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.269
+!MESSAGE 	ZipEntry sim/include/simulation/SimGyro.h: 568
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.269
+!MESSAGE 	ZipEntry sim/include/simulation/msgs/bool.pb.h: 4475
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.269
+!MESSAGE 	ZipEntry sim/include/simulation/msgs/driver-station.pb.h: 7966
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.270
+!MESSAGE 	ZipEntry sim/include/simulation/msgs/float64.pb.h: 4581
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.270
+!MESSAGE 	ZipEntry sim/include/simulation/msgs/joystick.pb.h: 6007
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.272
+!MESSAGE 	ZipEntry sim/include/simulation/msgs/msgs.h: 1086
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.272
+!MESSAGE 	ZipEntry sim/include/simulation/simTime.h: 192
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.272
+!MESSAGE 	ZipEntry sim/include/tables/IRemote.h: 1123
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.273
+!MESSAGE 	ZipEntry sim/include/tables/IRemoteConnectionListener.h: 735
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.273
+!MESSAGE 	ZipEntry sim/include/tables/ITable.h: 5617
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.273
+!MESSAGE 	ZipEntry sim/include/tables/ITableListener.h: 979
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.274
+!MESSAGE 	ZipEntry sim/include/tables/ITableProvider.h: 499
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.275
+!MESSAGE 	ZipEntry sim/include/tables/TableKeyNotDefinedException.h: 709
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.275
+!MESSAGE 	ZipEntry sim/lib/jinput-platform-2.0.5-natives-linux.jar: 10362
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.276
+!MESSAGE 	ZipEntry sim/lib/libjinput-linux.so: 13656
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.276
+!MESSAGE 	ZipEntry sim/lib/libjinput-linux64.so: 14512
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.277
+!MESSAGE 	ZipEntry sim/tools/SimDS.jar: 1094396
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.289
+!MESSAGE 	ZipEntry so.properties: 24
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.320
+!MESSAGE Installedcpp
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.320
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.320
+!MESSAGE Install necessary for java
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.321
+!MESSAGE 	ZipEntry ant/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.321
+!MESSAGE 	ZipEntry javadoc/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.321
+!MESSAGE 	ZipEntry javadoc/META-INF/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.322
+!MESSAGE 	ZipEntry javadoc/edu/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.322
+!MESSAGE 	ZipEntry javadoc/edu/wpi/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.323
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.323
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.323
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.324
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.324
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.324
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.324
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.325
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.325
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.325
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.326
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.326
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.327
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.327
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.327
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.327
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/internal/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.328
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/internal/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.328
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/livewindow/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.328
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/livewindow/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.328
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/smartdashboard/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.329
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/smartdashboard/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.329
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.329
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/class-use/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.329
+!MESSAGE 	ZipEntry lib/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.330
+!MESSAGE 	ZipEntry sim/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.330
+!MESSAGE 	ZipEntry sim/lib/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.330
+!MESSAGE 	ZipEntry sim/tools/: 0
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.330
+!MESSAGE 	ZipEntry ant/ant-classloadertask.jar: 70515
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.332
+!MESSAGE 	ZipEntry ant/ant-contrib.jar: 194050
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.335
+!MESSAGE 	ZipEntry ant/build.properties: 1309
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.335
+!MESSAGE 	ZipEntry ant/build.xml: 8467
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.337
+!MESSAGE 	ZipEntry ant/frcdebug: 176
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.337
+!MESSAGE 	ZipEntry ant/jsch-0.1.50.jar: 249282
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.340
+!MESSAGE 	ZipEntry ant/robotCommand: 66
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.340
+!MESSAGE 	ZipEntry ant/robotDebugCommand: 150
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.341
+!MESSAGE 	ZipEntry javadoc/META-INF/MANIFEST.MF: 126
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.341
+!MESSAGE 	ZipEntry javadoc/allclasses-frame.html: 26306
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.342
+!MESSAGE 	ZipEntry javadoc/allclasses-noframe.html: 22966
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.342
+!MESSAGE 	ZipEntry javadoc/constant-values.html: 173042
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.344
+!MESSAGE 	ZipEntry javadoc/deprecated-list.html: 10322
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.344
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/ADXL345_I2C.AllAxes.html: 11964
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.345
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/ADXL345_I2C.Axes.html: 12016
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.345
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/ADXL345_I2C.html: 24060
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.346
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/ADXL345_SPI.AllAxes.html: 11964
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.346
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/ADXL345_SPI.Axes.html: 12032
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.347
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/ADXL345_SPI.html: 25093
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.347
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/AccumulatorResult.html: 11543
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.348
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/AnalogAccelerometer.html: 28614
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.348
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/AnalogInput.html: 43899
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.349
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/AnalogOutput.html: 23374
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.349
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/AnalogPotentiometer.html: 29734
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.351
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/AnalogTrigger.AnalogTriggerException.html: 14560
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.351
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/AnalogTrigger.html: 22971
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.352
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/AnalogTriggerOutput.AnalogTriggerOutputException.html: 14823
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.353
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/AnalogTriggerOutput.AnalogTriggerType.html: 19249
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.353
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/AnalogTriggerOutput.html: 28446
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.354
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/BuiltInAccelerometer.html: 26368
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.354
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/CANJaguar.ControlMode.html: 18840
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.355
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/CANJaguar.LimitMode.html: 20425
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.355
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/CANJaguar.NeutralMode.html: 20234
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.357
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/CANJaguar.html: 118426
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.358
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Compressor.html: 29454
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.359
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/ControllerPower.html: 17335
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.359
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Counter.Mode.html: 19691
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.360
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Counter.html: 60844
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.360
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/CounterBase.EncodingType.html: 12700
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.361
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/CounterBase.html: 12788
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.361
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/DigitalInput.html: 28896
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.362
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/DigitalOutput.html: 35019
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.363
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/DigitalSource.html: 23536
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.364
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/DoubleSolenoid.Value.html: 13968
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.364
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/DoubleSolenoid.html: 27803
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.365
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/DriverStation.Alliance.html: 17833
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.365
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/DriverStation.html: 37393
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.366
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Encoder.html: 61023
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.367
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/GearTooth.html: 27081
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.367
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/GenericHID.Hand.html: 11590
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.368
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/GenericHID.html: 25853
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.369
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Gyro.html: 30442
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.369
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/HLUsageReporting.Interface.html: 9371
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.370
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/HLUsageReporting.Null.html: 14158
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.370
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/HLUsageReporting.html: 14687
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.371
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/I2C.Port.html: 17355
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.371
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/I2C.html: 25294
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.372
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/InterruptHandlerFunction.html: 13517
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.372
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/InterruptableSensorBase.html: 28364
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.373
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/IterativeRobot.html: 22677
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.374
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Jaguar.html: 26165
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.374
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Joystick.AxisType.html: 14503
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.375
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Joystick.ButtonType.html: 12500
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.375
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Joystick.html: 37859
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.376
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/MotorSafety.html: 12866
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.376
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/MotorSafetyHelper.html: 18601
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.377
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/NamedSendable.html: 10658
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.377
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PIDController.AbsoluteTolerance.html: 11271
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.378
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PIDController.NullTolerance.html: 12464
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.378
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PIDController.PercentageTolerance.html: 11325
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.379
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PIDController.Tolerance.html: 8768
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.379
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PIDController.html: 48509
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.380
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PIDOutput.html: 8817
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.380
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PIDSource.PIDSourceParameter.html: 12391
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.381
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PIDSource.html: 10267
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.381
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PWM.PeriodMultiplier.html: 12570
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.382
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PWM.html: 39238
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.382
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/PowerDistributionPanel.html: 16227
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.383
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Preferences.ImproperPreferenceKeyException.html: 18676
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.383
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Preferences.IncompatibleTypeException.html: 15137
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.384
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Preferences.html: 39245
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.384
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Relay.Direction.html: 19273
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.385
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Relay.InvalidValueException.html: 14450
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.385
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Relay.Value.html: 19532
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.386
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Relay.html: 29439
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.387
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Resource.html: 16214
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.387
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/RobotBase.html: 23923
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.388
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/RobotDrive.MotorType.html: 13350
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.388
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/RobotDrive.html: 68592
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.389
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/RobotState.html: 13695
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.389
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SPI.Port.html: 18738
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.390
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SPI.html: 25501
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.390
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SafePWM.html: 27380
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.391
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SampleRobot.html: 19737
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.392
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Sendable.html: 15062
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.392
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SensorBase.html: 30027
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.393
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SerialPort.FlowControl.html: 13386
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.393
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SerialPort.Parity.html: 13920
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.394
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SerialPort.Port.html: 17648
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.394
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SerialPort.StopBits.html: 12518
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.395
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SerialPort.WriteBufferMode.html: 11982
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.395
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SerialPort.html: 34788
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.396
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Servo.html: 30629
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.397
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Solenoid.html: 25542
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.397
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SolenoidBase.html: 17850
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.398
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/SpeedController.html: 11408
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.399
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Talon.html: 25929
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.399
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Timer.Interface.html: 10070
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.400
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Timer.StaticInterface.html: 9683
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.400
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Timer.html: 18858
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.401
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Ultrasonic.Unit.html: 11667
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.402
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Ultrasonic.html: 39807
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.402
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Utility.html: 11071
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.403
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/Victor.html: 25697
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.403
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/Button.html: 19968
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.404
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/InternalButton.html: 18540
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.404
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/JoystickButton.html: 16957
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.405
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/NetworkButton.html: 18057
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.406
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/Trigger.ButtonScheduler.html: 12339
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.406
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/Trigger.html: 23834
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.406
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/class-use/Button.html: 7263
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.407
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/class-use/InternalButton.html: 4718
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.407
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/class-use/JoystickButton.html: 4718
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.408
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/class-use/NetworkButton.html: 4707
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.408
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/class-use/Trigger.ButtonScheduler.html: 7285
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.409
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/class-use/Trigger.html: 7649
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.409
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/package-frame.html: 1441
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.409
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/package-summary.html: 6290
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.410
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/package-tree.html: 6413
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.410
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/buttons/package-use.html: 7233
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.411
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/CANExceptionFactory.html: 12919
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.411
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/CANInvalidBufferException.html: 13899
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.412
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/CANJNI.html: 194751
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.413
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/CANJaguarVersionException.html: 16272
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.414
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/CANMessageNotAllowedException.html: 14215
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.414
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/CANMessageNotFoundException.html: 13947
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.415
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/CANNotInitializedException.html: 13594
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.415
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/class-use/CANExceptionFactory.html: 4729
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.416
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/class-use/CANInvalidBufferException.html: 6877
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.416
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/class-use/CANJNI.html: 4586
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.417
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/class-use/CANJaguarVersionException.html: 4795
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.417
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/class-use/CANMessageNotAllowedException.html: 6941
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.417
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/class-use/CANMessageNotFoundException.html: 7107
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.418
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/class-use/CANNotInitializedException.html: 6893
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.418
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/package-frame.html: 1870
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.419
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/package-summary.html: 8062
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.419
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/package-tree.html: 7599
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.420
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/can/package-use.html: 7645
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.420
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/ADXL345_I2C.AllAxes.html: 6898
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.420
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/ADXL345_I2C.Axes.html: 8739
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.421
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/ADXL345_I2C.html: 4549
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.421
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/ADXL345_SPI.AllAxes.html: 6898
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.422
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/ADXL345_SPI.Axes.html: 8739
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.422
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/ADXL345_SPI.html: 4549
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.423
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/AccumulatorResult.html: 6974
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.423
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/AnalogAccelerometer.html: 4637
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.423
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/AnalogInput.html: 9065
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.424
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/AnalogOutput.html: 4560
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.424
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/AnalogPotentiometer.html: 4637
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.425
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/AnalogTrigger.AnalogTriggerException.html: 4824
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.425
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/AnalogTrigger.html: 9659
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.426
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/AnalogTriggerOutput.AnalogTriggerOutputException.html: 4956
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.426
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/AnalogTriggerOutput.AnalogTriggerType.html: 11681
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.426
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/AnalogTriggerOutput.html: 4637
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.427
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/BuiltInAccelerometer.html: 4648
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.427
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/CANJaguar.ControlMode.html: 8182
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.428
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/CANJaguar.LimitMode.html: 9611
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.428
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/CANJaguar.NeutralMode.html: 9369
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.429
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/CANJaguar.html: 4527
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.429
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Compressor.html: 4538
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.430
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/ControllerPower.html: 4593
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.430
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Counter.Mode.html: 7471
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.431
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Counter.html: 6526
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.431
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/CounterBase.EncodingType.html: 10826
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.432
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/CounterBase.html: 7308
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.432
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/DigitalInput.html: 7860
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.432
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/DigitalOutput.html: 7876
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.433
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/DigitalSource.html: 17352
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.433
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/DoubleSolenoid.Value.html: 9946
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.434
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/DoubleSolenoid.html: 4582
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.434
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/DriverStation.Alliance.html: 8203
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.435
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/DriverStation.html: 7773
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.435
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Encoder.html: 4505
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.436
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/GearTooth.html: 4527
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.436
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/GenericHID.Hand.html: 14004
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.437
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/GenericHID.html: 14485
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.437
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Gyro.html: 4472
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.437
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/HLUsageReporting.Interface.html: 9509
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.438
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/HLUsageReporting.Null.html: 4659
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.438
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/HLUsageReporting.html: 4604
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.439
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/I2C.Port.html: 8935
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.440
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/I2C.html: 4461
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.440
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/InterruptHandlerFunction.html: 7128
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.440
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/InterruptableSensorBase.html: 7830
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.441
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/IterativeRobot.html: 4582
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.441
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Jaguar.html: 4494
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.442
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Joystick.AxisType.html: 11410
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.442
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Joystick.ButtonType.html: 8976
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.442
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Joystick.html: 4516
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.443
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/MotorSafety.html: 9324
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.443
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/MotorSafetyHelper.html: 6799
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.444
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/NamedSendable.html: 13914
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.444
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PIDController.AbsoluteTolerance.html: 4769
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.445
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PIDController.NullTolerance.html: 4725
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.445
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PIDController.PercentageTolerance.html: 4791
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.446
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PIDController.Tolerance.html: 7455
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.446
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PIDController.html: 7741
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.446
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PIDOutput.html: 12269
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.447
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PIDSource.PIDSourceParameter.html: 10455
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.448
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PIDSource.html: 14136
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.448
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PWM.PeriodMultiplier.html: 9057
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.449
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PWM.html: 7713
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.449
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/PowerDistributionPanel.html: 4670
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.449
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Preferences.ImproperPreferenceKeyException.html: 4890
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.450
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Preferences.IncompatibleTypeException.html: 4835
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.450
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Preferences.html: 6745
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.451
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Relay.Direction.html: 9806
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.452
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Relay.InvalidValueException.html: 4725
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.452
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Relay.Value.html: 8968
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.453
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Relay.html: 4483
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.453
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Resource.html: 7524
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.454
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/RobotBase.html: 7063
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.454
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/RobotDrive.MotorType.html: 9567
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.455
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/RobotDrive.html: 4538
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.455
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/RobotState.html: 4538
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.455
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SPI.Port.html: 8903
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.456
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SPI.html: 4461
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.456
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SafePWM.html: 7193
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.457
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SampleRobot.html: 4549
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.457
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Sendable.html: 31066
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.458
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SensorBase.html: 16044
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.458
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SerialPort.FlowControl.html: 9603
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.459
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SerialPort.Parity.html: 10864
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.459
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SerialPort.Port.html: 10667
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.460
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SerialPort.StopBits.html: 9284
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.460
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SerialPort.WriteBufferMode.html: 8749
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.461
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SerialPort.html: 4538
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.461
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Servo.html: 4483
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.462
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Solenoid.html: 4516
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.462
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SolenoidBase.html: 7015
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.463
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/SpeedController.html: 12376
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.463
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Talon.html: 4483
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.463
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Timer.Interface.html: 8362
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.464
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Timer.StaticInterface.html: 8504
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.464
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Timer.html: 4483
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.465
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Ultrasonic.Unit.html: 11526
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.465
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Ultrasonic.html: 4538
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.466
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Utility.html: 4505
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.466
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/class-use/Victor.html: 4494
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.467
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/Command.html: 46955
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.468
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/CommandGroup.html: 40996
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.469
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/IllegalUseOfCommandException.html: 16138
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.469
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/PIDCommand.html: 33660
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.470
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/PIDSubsystem.html: 40580
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.471
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/PrintCommand.html: 22501
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.472
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/Scheduler.html: 24980
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.472
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/StartCommand.html: 22769
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.473
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/Subsystem.html: 24292
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.474
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/WaitCommand.html: 23676
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.474
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/WaitForChildren.html: 22119
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.475
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/WaitUntilCommand.html: 20435
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.475
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/Command.html: 24433
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.476
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/CommandGroup.html: 7028
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.476
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/IllegalUseOfCommandException.html: 4872
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.477
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/PIDCommand.html: 4674
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.477
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/PIDSubsystem.html: 4696
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.477
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/PrintCommand.html: 4696
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.478
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/Scheduler.html: 6989
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.478
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/StartCommand.html: 4696
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.479
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/Subsystem.html: 9149
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.479
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/WaitCommand.html: 4685
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.480
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/WaitForChildren.html: 4729
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.480
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/class-use/WaitUntilCommand.html: 4740
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.481
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/package-frame.html: 2387
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.481
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/package-summary.html: 10636
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.481
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/package-tree.html: 9293
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.482
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/command/package-use.html: 7939
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.482
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary.html: 62789
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.483
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary.tInstances.html: 38966
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.484
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary.tModuleType.html: 11484
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.485
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary.tResourceType.html: 56164
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.485
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary.tTargetClass.html: 15369
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.486
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/HALAllianceStationID.html: 19767
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.486
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/HALControlWord.html: 14586
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.487
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/NIRioStatus.html: 15111
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.487
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/UsageReporting.html: 12981
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.488
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/class-use/FRCNetworkCommunicationsLibrary.html: 4971
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.488
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/class-use/FRCNetworkCommunicationsLibrary.tInstances.html: 5116
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.489
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/class-use/FRCNetworkCommunicationsLibrary.tModuleType.html: 5127
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.489
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/class-use/FRCNetworkCommunicationsLibrary.tResourceType.html: 5149
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.490
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/class-use/FRCNetworkCommunicationsLibrary.tTargetClass.html: 5138
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.490
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/class-use/HALAllianceStationID.html: 8531
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.490
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/class-use/HALControlWord.html: 7076
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.491
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/class-use/NIRioStatus.html: 4751
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.491
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/class-use/UsageReporting.html: 4784
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.492
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/package-frame.html: 2599
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.492
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/package-summary.html: 9283
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.493
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/package-tree.html: 8564
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.493
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/communication/package-use.html: 6123
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.493
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/AccelerometerJNI.html: 14035
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.494
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/AnalogJNI.AnalogTriggerType.html: 10551
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.494
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/AnalogJNI.html: 61096
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.495
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/CompressorJNI.html: 19569
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.496
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/CounterJNI.html: 43300
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.496
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/DIOJNI.html: 23733
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.497
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/EncoderJNI.html: 27084
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.497
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/HALLibrary.Mode.html: 10429
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.498
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/HALLibrary.html: 44092
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.499
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/HALLibrary.tFrameMode.html: 10633
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.499
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/HALLibrary.tSPIConstants.html: 8962
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.499
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/HALUtil.html: 29726
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.500
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/I2CJNI.html: 16649
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.501
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/InterruptJNI.InterruptJNIHandlerFunction.html: 8656
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.501
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/InterruptJNI.html: 28272
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.502
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/JNIWrapper.html: 14728
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.502
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/PDPJNI.html: 14171
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.503
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/PWMJNI.html: 26805
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.503
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/PowerJNI.html: 23168
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.504
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/RelayJNI.html: 18626
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.504
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/SPIJNI.html: 19837
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.505
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/SerialPortJNI.html: 30368
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.505
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/SolenoidJNI.html: 16517
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.506
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/AccelerometerJNI.html: 4696
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.506
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/AnalogJNI.AnalogTriggerType.html: 4841
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.507
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/AnalogJNI.html: 4619
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.507
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/CompressorJNI.html: 4663
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.507
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/CounterJNI.html: 4630
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.508
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/DIOJNI.html: 6754
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.508
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/EncoderJNI.html: 4630
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.509
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/HALLibrary.Mode.html: 4709
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.509
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/HALLibrary.html: 4630
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.509
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/HALLibrary.tFrameMode.html: 4775
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.510
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/HALLibrary.tSPIConstants.html: 4808
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.510
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/HALUtil.html: 4597
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.511
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/I2CJNI.html: 4586
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.511
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/InterruptJNI.InterruptJNIHandlerFunction.html: 7995
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.511
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/InterruptJNI.html: 4652
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.512
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/JNIWrapper.html: 14770
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.512
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/PDPJNI.html: 4586
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.513
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/PWMJNI.html: 4586
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.513
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/PowerJNI.html: 4608
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.514
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/RelayJNI.html: 4608
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.514
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/SPIJNI.html: 4586
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.514
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/SerialPortJNI.html: 4663
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.515
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/class-use/SolenoidJNI.html: 4641
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.515
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/package-frame.html: 3827
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.516
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/package-summary.html: 11358
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.516
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/package-tree.html: 9929
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.516
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/hal/package-use.html: 7973
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.517
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/Accelerometer.Range.html: 18691
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.517
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/Accelerometer.html: 11814
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.518
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/Potentiometer.html: 9197
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.518
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/class-use/Accelerometer.Range.html: 14442
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.519
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/class-use/Accelerometer.html: 7489
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.519
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/class-use/Potentiometer.html: 6942
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.520
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/package-frame.html: 1387
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.520
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/package-summary.html: 6140
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.521
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/package-tree.html: 6480
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.521
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/interfaces/package-use.html: 7320
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.521
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/internal/HardwareHLUsageReporting.html: 14025
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.522
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/internal/HardwareTimer.html: 15883
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.523
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/internal/class-use/HardwareHLUsageReporting.html: 4839
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.523
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/internal/class-use/HardwareTimer.html: 4718
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.523
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/internal/package-frame.html: 1121
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.524
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/internal/package-summary.html: 5545
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.524
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/internal/package-tree.html: 5770
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.524
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/internal/package-use.html: 4313
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.525
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/livewindow/LiveWindow.html: 23022
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.525
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/livewindow/LiveWindowSendable.html: 13173
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.526
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/livewindow/class-use/LiveWindow.html: 4707
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.526
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/livewindow/class-use/LiveWindowSendable.html: 20571
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.527
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/livewindow/package-frame.html: 1221
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.527
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/livewindow/package-summary.html: 6086
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.528
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/livewindow/package-tree.html: 5692
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.528
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/livewindow/package-use.html: 7086
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.528
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/package-frame.html: 12622
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.529
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/package-summary.html: 33330
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.529
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/package-tree.html: 34681
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.530
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/package-use.html: 26940
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.530
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/smartdashboard/SendableChooser.html: 21257
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.531
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/smartdashboard/SmartDashboard.html: 47681
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.532
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/smartdashboard/class-use/SendableChooser.html: 4806
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.532
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/smartdashboard/class-use/SmartDashboard.html: 4795
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.533
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/smartdashboard/package-frame.html: 1135
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.533
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/smartdashboard/package-summary.html: 6201
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.533
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/smartdashboard/package-tree.html: 5594
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.534
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/smartdashboard/package-use.html: 4355
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.534
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/AllocationException.html: 14020
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.535
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/BaseSystemNotInitializedException.html: 16504
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.535
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/BoundaryException.html: 18165
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.536
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/CheckedAllocationException.html: 14253
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.536
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/SortedVector.Comparator.html: 9308
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.537
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/SortedVector.html: 26777
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.537
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/UncleanStatusException.html: 18500
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.538
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/class-use/AllocationException.html: 4740
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.538
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/class-use/BaseSystemNotInitializedException.html: 4894
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.539
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/class-use/BoundaryException.html: 4718
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.539
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/class-use/CheckedAllocationException.html: 7341
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.540
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/class-use/SortedVector.Comparator.html: 7033
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.540
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/class-use/SortedVector.html: 4663
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.540
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/class-use/UncleanStatusException.html: 6845
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.541
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/package-frame.html: 1978
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.541
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/package-summary.html: 7876
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.542
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/package-tree.html: 9299
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.542
+!MESSAGE 	ZipEntry javadoc/edu/wpi/first/wpilibj/util/package-use.html: 8029
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.542
+!MESSAGE 	ZipEntry javadoc/help-doc.html: 9004
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.543
+!MESSAGE 	ZipEntry javadoc/index-all.html: 807665
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.548
+!MESSAGE 	ZipEntry javadoc/index.html: 2931
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.548
+!MESSAGE 	ZipEntry javadoc/overview-frame.html: 2153
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.548
+!MESSAGE 	ZipEntry javadoc/overview-summary.html: 6226
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.549
+!MESSAGE 	ZipEntry javadoc/overview-tree.html: 52784
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.550
+!MESSAGE 	ZipEntry javadoc/package-list: 331
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.550
+!MESSAGE 	ZipEntry javadoc/script.js: 827
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.550
+!MESSAGE 	ZipEntry javadoc/serialized-form.html: 13099
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.551
+!MESSAGE 	ZipEntry javadoc/stylesheet.css: 12808
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.551
+!MESSAGE 	ZipEntry lib/NetworkTables-sources.jar: 56219
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.552
+!MESSAGE 	ZipEntry lib/NetworkTables.jar: 88066
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.553
+!MESSAGE 	ZipEntry lib/WPILib-sources.jar: 245926
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.558
+!MESSAGE 	ZipEntry lib/WPILib.jar: 709164
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.569
+!MESSAGE 	ZipEntry sim/lib/JavaGazebo-0.1.0-SNAPSHOT.jar: 145485
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.571
+!MESSAGE 	ZipEntry sim/lib/NetworkTables-0.1.0-SNAPSHOT.jar: 88066
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.573
+!MESSAGE 	ZipEntry sim/lib/jinput-2.0.5.jar: 208338
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.576
+!MESSAGE 	ZipEntry sim/lib/jinput-platform-2.0.5-natives-linux.jar: 10362
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.577
+!MESSAGE 	ZipEntry sim/lib/jutils-1.0.0.jar: 7508
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.577
+!MESSAGE 	ZipEntry sim/lib/libjinput-linux.so: 13656
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.578
+!MESSAGE 	ZipEntry sim/lib/libjinput-linux64.so: 14512
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.578
+!MESSAGE 	ZipEntry sim/lib/protobuf-java-2.5.0.jar: 533455
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.585
+!MESSAGE 	ZipEntry sim/lib/wpilibJava-0.1.0-SNAPSHOT.jar: 66872
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.586
+!MESSAGE 	ZipEntry sim/lib/wpilibJavaSim-0.1.0-SNAPSHOT.jar: 80300
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.587
+!MESSAGE 	ZipEntry sim/tools/SimDS.jar: 1094396
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2014-11-24 16:27:31.599
+!MESSAGE Installedjava
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-11-24 16:28:46.612
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-11-24 16:28:46.613
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Zylviij'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-11-24 16:29:22.425
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:174)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.access$0(ProjectUtils.java:137)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:96)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:129)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:60)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:246)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:229)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:199)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: C:\Users\Zylviij\Documents\GitHub\Hilltopper-Robotics-2015\HilltopperRobotics1732 overlaps the workspace location: C:\Users\Zylviij\Documents\GitHub\Hilltopper-Robotics-2015\HilltopperRobotics1732
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2014-11-24 16:29:22.426
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2014-11-24 16:29:22.426
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2014-11-24 16:29:22.426
+!MESSAGE C:\Users\Zylviij\Documents\GitHub\Hilltopper-Robotics-2015\HilltopperRobotics1732 overlaps the workspace location: C:\Users\Zylviij\Documents\GitHub\Hilltopper-Robotics-2015\HilltopperRobotics1732
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-11-24 16:29:54.887
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createExistingProject(ProjectUtils.java:174)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.access$0(ProjectUtils.java:137)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils$1.run(ProjectUtils.java:96)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:129)
+	at org.eclipse.egit.ui.internal.clone.ProjectUtils.createProjects(ProjectUtils.java:60)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.importProjects(GitImportWizard.java:246)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard.access$2(GitImportWizard.java:229)
+	at org.eclipse.egit.ui.internal.clone.GitImportWizard$4.run(GitImportWizard.java:199)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: OK
+Contains: C:\Users\Zylviij\Documents\GitHub\Hilltopper-Robotics-2015\HilltopperRobotics1732 overlaps the workspace location: C:\Users\Zylviij\Documents\GitHub\Hilltopper-Robotics-2015\HilltopperRobotics1732
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2014-11-24 16:29:54.887
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2014-11-24 16:29:54.887
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2014-11-24 16:29:54.887
+!MESSAGE C:\Users\Zylviij\Documents\GitHub\Hilltopper-Robotics-2015\HilltopperRobotics1732 overlaps the workspace location: C:\Users\Zylviij\Documents\GitHub\Hilltopper-Robotics-2015\HilltopperRobotics1732

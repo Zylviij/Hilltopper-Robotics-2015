@@ -1,6 +1,7 @@
 
 package org.usfirst.frc.team1732.robot;
 
+import org.usfirst.frc.team1732.robot.subsystem.IO;
 import org.usfirst.frc.team1732.robot.subsystem.RobotMap;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
@@ -15,47 +16,30 @@ import edu.wpi.first.wpilibj.Timer;
  */
 public class Robot extends IterativeRobot {
 	
-	static IO io = new IO();
-	static RobotMap robotMap = new RobotMap();
-	// Command thisisACommed = new Command();
-    /**
+	// creates all buttons and joysticks
+	static IO io;
+	
+	// creates all robot parts (motors, solenoids, sensors)
+	static RobotMap robotMap;
+
+	/**
      * This function is run when the robot is first started up and should be
      * used for any initialization code.
      */
     public void robotInit() {
-
+    	io = new IO();
+    	robotMap = new RobotMap();
     }
     
+    /*
+     * Disabled Methods
+     */
     /**
      * This function is run when the robot is first in
      * disabled mode.
      */
     public void disabledInit() {
     	robotMap.makeSafe();
-    }
-    
-    /**
-     * This function is run when the robot is first in
-     * autonomous mode. 
-     */
-    public void autonomousInit() {
-    	
-    }
-    
-    /**
-     * This function is run when the robot is first in
-     * teleop mode.
-     */
-    public void teleopInit() {
-    	
-    }
-    
-    /**
-     * This function is run when the robot is first in
-     * test mode.
-     */
-    public void testInit() {
-    	
     }
     
     private boolean dpFirstRun = true;
@@ -70,25 +54,57 @@ public class Robot extends IterativeRobot {
         Timer.delay(0.001);
     }
     
+    /*
+     * Autonomous Methods
+     */
+    /**
+     * This function is run when the robot is first in
+     * autonomous mode. 
+     */
+    public void autonomousInit() {
+    	
+    }
+    
     /**
      * This function is called periodically during autonomous mode.
      */
     public void autonomousPeriodic() {
 
     }
-
+    
+    /*
+     * Teleop Methods
+     */
+    /**
+     * This function is run when the robot is first in
+     * teleop mode.
+     */
+    public void teleopInit() {
+    	
+    }
+    
     /**
      * This function is called periodically during teleop mode.
      */
     public void teleopPeriodic() {
-    	// controlls shifter
-        if (io.getShift()) {
-        	robotMap.drive.shifterSolenoid.set(true);
-        }
+    	// drive
+    	robotMap.drive.drive(io.leftJoystick.getRawAxis(1), io.rightJoystick.getRawAxis(1), io.getShift());
+
         // controls gates
         if (io.getGates() || io.getForward()) {
         	robotMap.gates.gatesSolenoid.set(true);
         }
+    }
+    
+    /*
+     * Test Methods
+     */
+    /**
+     * This function is run when the robot is first in
+     * test mode.
+     */
+    public void testInit() {
+    	
     }
     
     private boolean tpFirstRun = true;
