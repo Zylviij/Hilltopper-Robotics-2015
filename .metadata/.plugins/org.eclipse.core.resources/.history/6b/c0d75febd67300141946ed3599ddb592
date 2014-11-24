@@ -14,10 +14,4 @@ public class RobotMap {
 	static Catapult catapult = new Catapult();
 	static Gates gates = new Gates();
 	
-	public void makeSafe() {
-		arm.makeSafe();
-		drive.makeSafe();
-		catapult.makeSafe();
-		gates.makeSafe();
-	}
 }

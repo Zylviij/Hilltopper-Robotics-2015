@@ -4,9 +4,4 @@ import edu.wpi.first.wpilibj.Solenoid;
 
 public class Gates {
 	Solenoid gatesSolenoid = new Solenoid(3);
-	
-	public void makeSafe() {
-		gatesSolenoid.set(false);
-		gatesSolenoid.free();
-	}
 }

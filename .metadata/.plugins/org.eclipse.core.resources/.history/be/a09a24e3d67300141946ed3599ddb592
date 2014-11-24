@@ -10,8 +10,6 @@ public class Arm {
 	public void makeSafe() {
 		armMotor.set(0);
 		armMotor.free();
-		armMotor.disable();
-		
 		pickupArmSolenoid.set(false);
 		pickupArmSolenoid.free();
 	}

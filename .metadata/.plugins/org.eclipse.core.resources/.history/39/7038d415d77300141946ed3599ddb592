@@ -8,13 +8,4 @@ public class Catapult {
 	DigitalInput proximitySensor = new DigitalInput(0);
 	Solenoid backPassSolenoid = new Solenoid(2);
 	Talon catapultMotor = new Talon(3);
-	
-	public void makeSafe() {
-		backPassSolenoid.set(false);
-		backPassSolenoid.free();
-		
-		catapultMotor.set(0);
-		catapultMotor.free();
-		catapultMotor.disable();
-	}
 }

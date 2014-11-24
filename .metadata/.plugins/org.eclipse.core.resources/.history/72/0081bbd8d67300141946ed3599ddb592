@@ -7,17 +7,4 @@ public class Drive {
 	Talon leftMotor = new Talon(0);
 	Talon rightMotor = new Talon(1);
 	Solenoid shifterSolenoid = new Solenoid(0);
-	
-	public void makeSafe() {
-		leftMotor.set(0);
-		leftMotor.free();
-		leftMotor.disable();
-		
-		rightMotor.set(0);
-		rightMotor.free();
-		rightMotor.disable();
-		
-		shifterSolenoid.set(false);
-		shifterSolenoid.free();
-	}
 }
