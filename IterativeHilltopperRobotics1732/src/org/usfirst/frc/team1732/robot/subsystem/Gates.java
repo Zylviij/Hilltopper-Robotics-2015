@@ -1,0 +1,7 @@
+package org.usfirst.frc.team1732.robot.subsystem;
+
+import edu.wpi.first.wpilibj.Solenoid;
+
+public class Gates {
+	Solenoid gatesSolenoid = new Solenoid(3);
+}

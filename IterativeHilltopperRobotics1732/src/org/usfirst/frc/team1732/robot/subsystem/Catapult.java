@@ -1,0 +1,11 @@
+package org.usfirst.frc.team1732.robot.subsystem;
+
+import edu.wpi.first.wpilibj.DigitalInput;
+import edu.wpi.first.wpilibj.Solenoid;
+import edu.wpi.first.wpilibj.Talon;
+
+public class Catapult {
+	DigitalInput proximitySensor = new DigitalInput(0);
+	Solenoid backPassSolenoid = new Solenoid(2);
+	Talon catapultMotor = new Talon(3);
+}

@@ -17,6 +17,7 @@ public class Robot extends IterativeRobot {
 	
 	static IO io = new IO();
 	static RobotMap robotMap = new RobotMap();
+	static Sensor sensor = new Sensor();
 	
     /**
      * This function is run when the robot is first started up and should be
