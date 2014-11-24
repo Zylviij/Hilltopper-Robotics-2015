@@ -3,6 +3,8 @@ package org.usfirst.frc.team1732.robot;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.Solenoid;
+import edu.wpi.first.wpilibj.Talon;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.buttons.Button;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
@@ -37,9 +39,24 @@ public class Robot extends IterativeRobot {
 	Button rightIntake = new JoystickButton(rightJoystick, 4);
 	Button leftShoot = new JoystickButton(leftJoystick, 5);
 	Button rightShoot = new JoystickButton(rightJoystick, 5);
+		
+	/*
+	 * Creates Motors
+	 */
+	Talon leftMotor = new Talon(0);
+	Talon rightMotor = new Talon(1);
+	Talon armMotor = new Talon(2);
+	Talon catapultMotor = new Talon(3);
 	
-	static RobotMap robotMap = new RobotMap();
-	static Sensor sensor = new Sensor();
+	/* 
+	 * Creates Solenoids
+	 */
+	Solenoid shifterSolenoid = new Solenoid(0);
+	Solenoid pickupArmSolenoid = new Solenoid(1);
+	Solenoid backPassSolenoid = new Solenoid(2);
+	Solenoid gatesSolenoid = new Solenoid(3);
+	
+	static Sensor sensors = new Sensor();
 	
     /**
      * This function is run when the robot is first started up and should be
