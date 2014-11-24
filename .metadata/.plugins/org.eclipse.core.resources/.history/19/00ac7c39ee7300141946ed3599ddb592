@@ -9,10 +9,10 @@ public class RobotMap {
 	/*
 	 * creates robot subsystems
 	 */
-	public Arm arm = new Arm();
-	public Drive drive = new Drive();
-	public Catapult catapult = new Catapult();
-	public Gates gates = new Gates();
+	static Arm arm = new Arm();
+	static Drive drive = new Drive();
+	static Catapult catapult = new Catapult();
+	static Gates gates = new Gates();
 	
 	public void makeSafe() {
 		arm.makeSafe();

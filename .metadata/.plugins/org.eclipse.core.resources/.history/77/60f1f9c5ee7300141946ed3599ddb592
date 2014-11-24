@@ -3,7 +3,7 @@ package org.usfirst.frc.team1732.robot.subsystem;
 import edu.wpi.first.wpilibj.Solenoid;
 
 public class Gates {
-	public Solenoid gatesSolenoid = new Solenoid(3);
+	Solenoid gatesSolenoid = new Solenoid(3);
 	
 	public void makeSafe() {
 		gatesSolenoid.set(false);

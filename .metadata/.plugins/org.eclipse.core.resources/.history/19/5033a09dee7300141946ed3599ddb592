@@ -13,8 +13,8 @@ public class IO {
 	/*
 	 * Create Joysticks
 	 */
-	public Joystick leftJoystick = new Joystick(0);
-	public Joystick rightJoystick = new Joystick(1);
+	Joystick leftJoystick = new Joystick(0);
+	Joystick rightJoystick = new Joystick(1);
 	
 	
 	/*
@@ -28,7 +28,7 @@ public class IO {
 	 * Sends OR joystick value of gate buttons.
 	 * @return left OR right gate button is pressed
 	 */
-	public boolean getGates() {
+	public boolean getGate() {
 		return leftGate.get() || rightGate.get();
 	}
 	

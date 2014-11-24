@@ -4,8 +4,8 @@ import edu.wpi.first.wpilibj.Solenoid;
 import edu.wpi.first.wpilibj.Talon;
 
 public class Arm {
-	public Talon armMotor = new Talon(2);
-	public Solenoid pickupArmSolenoid = new Solenoid(1);
+	Talon armMotor = new Talon(2);
+	Solenoid pickupArmSolenoid = new Solenoid(1);
 	
 	public void makeSafe() {
 		armMotor.set(0);

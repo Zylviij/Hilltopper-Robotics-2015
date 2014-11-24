@@ -28,7 +28,7 @@ public class IO {
 	 * Sends OR joystick value of gate buttons.
 	 * @return left OR right gate button is pressed
 	 */
-	public boolean getGates() {
+	public boolean getGate() {
 		return leftGate.get() || rightGate.get();
 	}
 	
