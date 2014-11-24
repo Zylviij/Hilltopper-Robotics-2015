@@ -31,7 +31,13 @@ public class Robot extends IterativeRobot {
      * disabled mode.
      */
     public void disabledInit() {
-    	robotMap.makeSafe();
+    	/*
+    	 * As shown below, each component should be put in a safe
+    	 * mode and should be freed.
+    	 * 
+    	 * shifterSolenoid.set(false);
+    	 * shifterSolenoid.free();    	
+    	*/
     }
     
     /**
