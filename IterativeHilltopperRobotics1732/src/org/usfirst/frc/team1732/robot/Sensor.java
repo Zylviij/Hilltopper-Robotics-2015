@@ -1,0 +1,16 @@
+package org.usfirst.frc.team1732.robot;
+
+import edu.wpi.first.wpilibj.DigitalInput;
+
+/**
+ * Creates all sensor objects.
+ * @author blakeziolkowski
+ */
+public class Sensor {
+	
+	/*
+	 * Creates Sensors
+	 */
+	DigitalInput proximitySensor = new DigitalInput(0);
+	
+}
