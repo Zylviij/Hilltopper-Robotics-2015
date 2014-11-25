@@ -7,6 +7,12 @@ public class Arm {
 	private Talon armMotor = new Talon(2);
 	private Solenoid pickupArmSolenoid = new Solenoid(1);
 	
+	/**
+	 * Set the arm intelligently.
+	 * @param armButton
+	 * @param intakeButton
+	 * @param backPassButton
+	 */
 	public void setArm(boolean armButton, boolean intakeButton, boolean backPassButton) {
 		if (backPassButton) {
 			setArm(-1, false);
@@ -19,11 +25,19 @@ public class Arm {
 		}
 	}
 	
+	/**
+	 * Set the arm.
+	 * @param speed
+	 * @param extended
+	 */
 	public void setArm(int speed, boolean extended) {
 		armMotor.set(speed);
 		pickupArmSolenoid.set(extended);
 	}
 	
+	/**
+	 * Make safe the arm.
+	 */
 	public void makeSafe() {
 		armMotor.set(0);
 		armMotor.free();

@@ -14,6 +14,9 @@ public class RobotMap {
 	public Catapult catapult = new Catapult();
 	public Gates gates = new Gates();
 	
+	/**
+	 * Make safe the robot.
+	 */
 	public void makeSafe() {
 		arm.makeSafe();
 		drive.makeSafe();
