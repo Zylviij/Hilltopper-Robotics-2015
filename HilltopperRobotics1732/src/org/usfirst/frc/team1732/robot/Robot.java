@@ -91,9 +91,13 @@ public class Robot extends IterativeRobot {
     	robotMap.drive.drive(io.leftJoystick.getRawAxis(1), io.rightJoystick.getRawAxis(1), io.getShift());
 
         // controls gates
-        if (io.getGates() || io.getForward()) {
-        	robotMap.gates.gatesSolenoid.set(true);
-        }
+        robotMap.gates.setGates(io.getGates(), io.getForward());
+        
+        // controls arm
+        robotMap.arm.setArm(io.getArm(), io.getIntake(), io.getBackward());
+        
+        // controls catapult
+        // TODO: add robotMap.catapult.setCatapult(thigs,yuc,uyd);
     }
     
     /*

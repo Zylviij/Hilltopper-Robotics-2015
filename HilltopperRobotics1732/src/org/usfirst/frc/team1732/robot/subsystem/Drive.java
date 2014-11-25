@@ -4,9 +4,9 @@ import edu.wpi.first.wpilibj.Solenoid;
 import edu.wpi.first.wpilibj.Talon;
 
 public class Drive {
-	public Talon leftMotor = new Talon(0);
-	public Talon rightMotor = new Talon(1);
-	public Solenoid shifterSolenoid = new Solenoid(0);
+	private Talon leftMotor = new Talon(0);
+	private Talon rightMotor = new Talon(1);
+	private Solenoid shifterSolenoid = new Solenoid(0);
 	
 	public void drive(double left, double right, boolean shift) {
 		leftMotor.set(left);
